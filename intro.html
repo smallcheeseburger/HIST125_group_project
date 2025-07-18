@@ -12,7 +12,7 @@
         height: auto;
         display: block;
       }
-      .center-button, .next-button {
+      .center-button, .nav-button {
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -23,9 +23,14 @@
         border-radius: 0.5em;
         margin-top: 2em;
       }
-      .next-button span.arrow {
+      .arrow {
         font-size: 1.5em;
         margin-left: 0.5em;
+      }
+      .nav-buttons {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 2em;
       }
     </style>
   </head>
@@ -45,17 +50,18 @@
           <p>
             Welcome to our HIST125 group project! Here you will find an overview of our collaborative work and research.
           </p>
-          <!-- Center button -->
+          <!-- Center button to return to main page -->
           <a href="index.html" class="center-button">Return to Main Page</a>
         </div>
       </section>
 
-      <!-- Bottom next button (right aligned visually by default) -->
+      <!-- Bottom right next button -->
       <section class="wrapper style1 align-center">
-        <a href="member1.html" class="next-button">
-          Next: Member 1
-          <span class="arrow">&#9654;</span>
-        </a>
+        <div class="nav-buttons">
+          <a href="member1.html" class="nav-button">
+            Next: Member 1 <span class="arrow">&#9654;</span>
+          </a>
+        </div>
       </section>
 
     </div>
@@ -71,3 +77,4 @@
 
   </body>
 </html>
+
