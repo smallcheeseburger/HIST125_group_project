@@ -7,14 +7,12 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
     <style>
-      /* 让图片占满页面宽度 */
       .full-width-image img {
         width: 100%;
         height: auto;
         display: block;
       }
-      /* 自定义前进按钮样式 */
-      .next-button {
+      .center-button, .next-button {
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -33,10 +31,9 @@
   </head>
   <body class="is-preload">
 
-    <!-- Wrapper -->
     <div id="wrapper" class="divided">
 
-      <!-- Full-width image at top -->
+      <!-- Full-width image -->
       <section class="wrapper style1 align-center full-width-image">
         <img src="images/banner.jpg" alt="Intro Image" />
       </section>
@@ -48,14 +45,16 @@
           <p>
             Welcome to our HIST125 group project! Here you will find an overview of our collaborative work and research.
           </p>
+          <!-- Center button -->
+          <a href="index.html" class="center-button">Return to Main Page</a>
         </div>
       </section>
 
-      <!-- Bottom next button -->
+      <!-- Bottom next button (right aligned visually by default) -->
       <section class="wrapper style1 align-center">
         <a href="member1.html" class="next-button">
           Next: Member 1
-          <span class="arrow">&#9654;</span> <!-- Unicode ▶️ -->
+          <span class="arrow">&#9654;</span>
         </a>
       </section>
 
