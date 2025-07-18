@@ -12,9 +12,10 @@
         height: auto;
         display: block;
       }
-      .nav-button {
+      .center-button, .nav-button {
         display: inline-flex;
         align-items: center;
+        justify-content: center;
         text-decoration: none;
         font-size: 1.2em;
         padding: 0.5em 1em;
@@ -25,6 +26,11 @@
       .arrow {
         font-size: 1.5em;
         margin-right: 0.5em;
+      }
+      .nav-buttons {
+        display: flex;
+        justify-content: flex-start;
+        margin-top: 2em;
       }
     </style>
   </head>
@@ -44,14 +50,18 @@
           <p>
             This is the conclusion of our HIST125 group project, summarizing the key insights and reflections from all members.
           </p>
+          <!-- Center "Return to Main Page" button -->
+          <a href="index.html" class="center-button">Return to Main Page</a>
         </div>
       </section>
 
-      <!-- Navigation button (back to Member 6) -->
+      <!-- Bottom left back button -->
       <section class="wrapper style1 align-center">
-        <a href="member6.html" class="nav-button">
-          <span class="arrow">&#9664;</span> Member 6
-        </a>
+        <div class="nav-buttons">
+          <a href="member6.html" class="nav-button">
+            <span class="arrow">&#9664;</span> Member 6
+          </a>
+        </div>
       </section>
 
     </div>
@@ -67,3 +77,4 @@
 
   </body>
 </html>
+
