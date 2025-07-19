@@ -1,37 +1,23 @@
-Story by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+HIST125 Group Project - README
+------------------------------
 
+How to view this project:
+Option 1 (local):
+1. Open the folder where you extracted the files.
+2. Double-click `index.html` to open it in your default web browser.
 
-Say hello to Story, a brand new responsive one-pager for HTML5 UP! Inspired by my work
-on Carrd*, Story is built to be extremely modular and tweakable, and as such is entirely
-built on reusable, insanely customizable elements (like "spotlight" and "gallery") that
-can be endlessly duplicated and tweaked into whatever you need to tell your story --
-without, in many cases, touching *any* CSS. Check out index-demo.html for an interactive
-demo, and index.html for the actual template. Enjoy!
+Option 2 (online):
+1. Visit our hosted website: https://hist125-group-project.pages.dev/
 
-Demo images** courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+Group members and contributions:
+Xinrong Yu: Women's Traditional Roles, Introduction, Conclusion
+Mikaela Young-Gayle : Factory Work: Harsh Conditions, Conclusion
+Zhangzhengyang Song: Class Differences, website, Conclusion
+Wang, Yifei: Health Hazards Faced by Working-Class Women, Conclusion
+Ziyao Ren: Resistance and Reform, Introduction, Conclusion
+Xu, Shuxiang: Long-Term Impact, Conclusion
 
-PS: Delete index-demo.html and assets/js/demo.js when you're done messing with the demo
-as neither are needed in production :)
+Additional files:
+script.docx: This file contains the complete written text of the website for easy reference and grading.
 
-(* = my other side project -- carrd.co)
-(** = not included)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+Thank you for viewing our project!
